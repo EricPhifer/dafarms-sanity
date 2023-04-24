@@ -9,8 +9,8 @@ import navigation from './navigation'
 import recipes from './recipes'
 import reviews from './reviews'
 // Privacy Policy + Terms & Conditions
-import privacypolicy from './privacypolicy'
-import termsconditions from './termsconditions'
+import privacypolicy from './privacyPolicy'
+import termsconditions from './termsConditions'
 // Components
 import PageLinks from '../components/PageLinks'
 import Ingredients from '../components/Ingredients'
