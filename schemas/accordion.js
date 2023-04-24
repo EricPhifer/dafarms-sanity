@@ -2,7 +2,7 @@ import { AiFillQuestionCircle as icon } from 'react-icons/ai';
 
 export default {
     name: 'accordion',
-    title: 'Accordion',
+    title: 'Display of Cuts Available',
     type: 'document',
     icon,
     fields: [

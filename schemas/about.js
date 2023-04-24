@@ -1,8 +1,8 @@
 import { TbSection as icon } from 'react-icons/tb';
 
 export default {
-    name: 'section',
-    title: 'General Sections with Image and Content',
+    name: 'about',
+    title: 'About Us',
     type: 'document',
     icon,
     fields: [

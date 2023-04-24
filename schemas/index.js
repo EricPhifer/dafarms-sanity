@@ -1,17 +1,22 @@
+import about from './about'
 import accordion from './accordion'
+import beef from './beef'
+import cattle from './cattle'
+import hay from './hay'
 import hero from './hero'
-import imagecarousel from './imagecarousel'
 import navigation from './navigation'
 import reviews from './reviews'
-import section from './section'
 import PageLinks from '../components/PageLinks'
 
 export const schemaTypes = [
+    about,
     accordion,
+    beef,
+    cattle,
+    hay,
     hero,
-    imagecarousel,
     navigation,
     reviews,
-    section,
+    // Components
     PageLinks
 ]

@@ -1,8 +1,8 @@
-import { BiCarousel as icon } from 'react-icons/bi';
+import { TbSection as icon } from 'react-icons/tb';
 
 export default {
-    name: 'imagecarousel',
-    title: 'Image Carousel with Heading and Content',
+    name: 'beef',
+    title: 'Natural Beef',
     type: 'document',
     icon,
     fields: [
@@ -11,7 +11,12 @@ export default {
           title: 'Title',
           type: 'string',
         },
-
+        { 
+            name: 'content', 
+            title: 'Content', 
+            type: 'array',
+            of: [{type: 'block'}]
+        },
         {
             name: 'image', 
             title: 'Background Image', 
@@ -30,12 +35,6 @@ export default {
           title: 'Credit to the Creator or Owner of the Image',
           type: 'string',
         },
-        { 
-            name: 'content', 
-            title: 'Content', 
-            type: 'array',
-            of: [{type: 'block'}]
-        }
     ],
     preview: {
         select: {
