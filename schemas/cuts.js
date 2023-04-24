@@ -11,12 +11,6 @@ export default {
           title: 'Title',
           type: 'string',
         },
-        { 
-            name: 'content', 
-            title: 'Content', 
-            type: 'array',
-            of: [{type: 'block'}]
-        },
         {
             name: 'image', 
             title: 'Background Image', 
