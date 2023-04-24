@@ -30,9 +30,17 @@ export default {
           title: 'Credit to the Creator or Owner of the Image',
           type: 'string',
         },
+        {
+          name: 'ingredients',
+          title: 'Ingredient List',
+          type: 'array',
+          of: [
+            { type: 'Ingredients' }
+          ],
+        },
         { 
-            name: 'content', 
-            title: 'Content', 
+            name: 'directions', 
+            title: 'Directions', 
             type: 'array',
             of: [{type: 'block'}]
         }

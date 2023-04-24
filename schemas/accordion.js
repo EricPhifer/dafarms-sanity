@@ -7,21 +7,21 @@ export default {
     icon,
     fields: [
         {
-          name: 'question',
-          title: 'Question',
+          name: 'category',
+          title: 'Section of Cut',
           type: 'string',
+          description: 'The section of the cattle that the cut comes from',
         },
         { 
-            name: 'answer', 
-            title: 'Answer', 
-            type: 'array',
-            of: [{type: 'block'}]
+            name: 'cut', 
+            title: 'Cuts from this Section', 
+            type: 'reference',
+            of: [{type: 'cuts'}]
         }
     ],
     preview: {
         select: {
-          title: 'question',
-          subtitle: 'answer',
+          title: 'category',
         },
       },
   }
