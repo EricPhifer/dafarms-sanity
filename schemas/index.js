@@ -9,8 +9,8 @@ import navigation from './navigation'
 import recipes from './recipes'
 import reviews from './reviews'
 // Privacy Policy + Terms & Conditions
-import privacyPolicy from './privacyPolicy'
-import termsConditions from './termsConditions'
+import privacypolicy from './privacypolicy'
+import termsconditions from './termsconditions'
 // Components
 import PageLinks from '../components/PageLinks'
 import Ingredients from '../components/Ingredients'
@@ -27,8 +27,8 @@ export const schemaTypes = [
     recipes,
     reviews,
     // Privacy Policy + Terms & Conditions
-    privacyPolicy,
-    termsConditions,
+    privacypolicy,
+    termsconditions,
     // Components
     Ingredients,
     PageLinks

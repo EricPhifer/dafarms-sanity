@@ -15,8 +15,17 @@ export default {
         { 
             name: 'cut', 
             title: 'Cuts from this Section', 
-            type: 'reference',
-            of: [{type: 'cuts'}]
+            type: 'array',
+            of: [
+              {
+                type: 'reference',
+                to: [
+                  {
+                    type: 'cuts',
+                  }
+                ]
+              }
+            ]
         }
     ],
     preview: {

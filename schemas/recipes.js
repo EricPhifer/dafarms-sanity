@@ -39,7 +39,7 @@ export default {
           ],
         },
         { 
-            name: 'directions', 
+            name: 'instructions', 
             title: 'Directions', 
             type: 'array',
             of: [{type: 'block'}]
